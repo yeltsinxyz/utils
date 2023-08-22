@@ -10,3 +10,67 @@
 #menu > li:nth-child(8) {
   display: none;
 }
+#relatedservicestbl tr:not(:first-child):not(.rowhighlight) {
+  display: none;
+}
+#selectRelatedService {
+  display: none;
+}
+#contentarea > div:nth-child(1) > ul > li:nth-child(6),
+#contentarea > div:nth-child(1) > ul > li:nth-child(4),
+div.md-header.btn-toolbar > div:nth-child(5) {
+  display: none;
+}
+.message.markdown-content a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #C89300;
+}
+.message.markdown-content a:hover {
+  color: #000;
+}
+#ticketreplies .reply.note {
+  border: 1px dashed #850fa5;
+  background-color: #ebe4ed;
+  box-shadow: 0 0 5px #850fa5;
+}
+#ticketreplies .reply {
+  margin: 0 0 10px 0;
+  padding: 0;
+  border: 1px solid #61ac50;
+  background-color: #eaedea;
+  box-shadow: 0 0 5px #61ac50;
+}
+span.ticketattachmentinfo {
+  font-weight: bold;
+  max-width: 220px;
+}
+#ticketreplies .message {
+  padding: 0;
+  color: #000;
+  font-size: 14px;
+  font-family: Tahoma;
+  letter-spacing: 0.8px;
+  line-height: 1.9;
+}
+#ticketreplies .reply.note .submitter .title {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  padding: 11px;
+  font-size: 12px;
+  background: #c00;
+  width: fit-content;
+  float: right;
+  margin: 8px 0px;
+  color: #FFF;
+}
+#ticketreplies .postedon {
+  color: #5d5c5c;
+  font-family: monospace;
+  padding: 10px 10px 0px;
+  font-size: 12px;
+}
+.footerbar, .stats, .contexthelp {
+  display: none;
+}
