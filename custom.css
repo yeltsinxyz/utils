@@ -1,3 +1,12 @@
 .topbar {
   display: none;
 }
+#menu > li:nth-child(1),
+#menu > li:nth-child(2),
+#menu > li:nth-child(3),
+#menu > li:nth-child(5),
+#menu > li:nth-child(6),
+#menu > li:nth-child(7),
+#menu > li:nth-child(8) {
+  display: none;
+}
